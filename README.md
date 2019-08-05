@@ -29,7 +29,6 @@ Information about traffic on the streets is taken from Google API.
 ![Main screen](https://raw.githubusercontent.com/angelikaiskra/Check_My_Road/master/images/CheckMyRoad_2.png)
 ![Menu](https://raw.githubusercontent.com/angelikaiskra/Check_My_Road/master/images/CheckMyRoad_3.png)
 ![Settings](https://raw.githubusercontent.com/angelikaiskra/Check_My_Road/master/images/CheckMyRoad_4.png)
-![Feedback](https://raw.githubusercontent.com/angelikaiskra/Check_My_Road/master/images/CheckMyRoad_5.png)
 
 ## Authors
 
