@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">CheckMyRoad</string>
+    <string name="title_activity_maps">Check My Road</string>
+
+    <!-- Strings related to Event Buttons-->
+    <string name="button_search">SEARCH</string>
+    <string name="text_n_informacje">Najnowsze informacje</string>
+    <string name="button_korek">KOREK</string>
+    <string name="button_fotoradar">FOTORADAR</string>
+    <string name="button_kontrola">KONTROLA</string>
+    <string name="button_wypadek">WYPADEK</string>
+    <string name="button_remont">REMONT</string>
+    <string name="button_blokada">BLOKADA</string>
+    <string name="text_n_info">Najnowsze informacje</string>
+    <!--<string name="button_return">Return</string>-->
+    <!--<string name="button_add">+</string>-->
+
+
+    <!-- String related to Event Activity Dialog-->
+    <string name="event_text">EVENT</string>
+    <string name="button_send">Prześlij</string>
+    <string name="button_cancel">Anuluj</string>
+
+
+    <!--    Permissions    -->
+    <!--<string name="permission_rationale_location">Dostęp do lokalizacji jest wymagany do poprawnego działania aplikacji.</string>-->
+    <!--<string name="location_permission_denied">Ta aplikacja wymaga uprawnie do udostepnienia \'lokalizacji\'. Spróbuj ponownie i udziel dostępu do Twojego położenia.\nJeśli uprawnienie zostało stale zablokowane, może zostać ponownie włączone w Ustawienia systemu &gt; Aplikacje &gt; \'Check My Road\'.</string>-->
+    <!--<string name="permission_required_toast">Dostęp do lokalizacji jest wymagany do poprawnego działania aplikacji.</string>-->
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="about_us">O twórcach</string>
+    <string name="title_activity_settings">Ustawienia</string>
+
+
+    <!-- Action bar titles-->
+    <string name="about_us_string">O nas</string>
+    <string name="title_activity_feedback">Feedback</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_header_general">Ogólne</string>
+
+    <string name="pref_title_languages">Język interfejsu</string>
+    <string name="key_your_nickname">key_your_nickname</string>
+    <string name="pref_your_nick">Twój nick</string>
+    <string name="pref_title_following_user">Sledzenie kamery</string>
+    <string name="pref_languages">pref_languages</string>
+    <!--<string name="check_box_following_user">check_box_following_user</string>-->
+
+
+    <!-- Settings for Notifications -->
+    <string name="pref_header_notifications">Najnowsze informacje</string>
+
+    <string name="pref_if_notifications_enabled">Otrzymywanie powiadomień</string>
+    <string name="pref_title_ringtone">Dźwięk powiadomienia</string>
+    <string name="pref_ringtone_vibrations">Wibracje</string>
+    <!--<string name="pref_notify_about">Powiadamiaj tylko o…</string>-->
+    <!--<string name="pref_range_of_notifications">Zasięg powiadomien</string>-->
+    <string name="get_notifications">notifications_new_message</string>
+    <string name="title_new_notification_sound">Otrzymywanie powiadomien</string>
+    <string name="key_notifications_new_event_ringtone">key_notifications_new_event_ringtone</string>
+    <string name="summary_choose_ringtone">Wybierz dźwięk powiadomienia</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="summary_vibrate">Urządzenie wibruje przy otrzymywaniu nowych powiadomień</string>
+    <string name="title_vibrate">Wibracje</string>
+    <string name="pref_ringtone_silent">Cichy</string>
+    <string name="list_range_of_notifications">list_range_of_notifications</string>
+
+    <!-- Settings for Synchronization -->
+    <string name="pref_header_sync">Synchronizacja</string>
+
+    <string name="pref_title_sync_frequency">Częstotliwość odświeżania</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="list_sync_frequency">list_sync_frequency</string>
+
+    <!-- Settings for About Application-->
+    <string name="app_version">1.0</string>
+    <string name="title_version">Wersja</string>
+    <string name="summary_faq">Masz jakieś pytania? Pomożemy!</string>
+    <string name="title_faq">FAQ</string>
+    <string name="url_git">https://github.com/angelikaiskra/Check_My_Road</string>
+    <string name="key_send_question">key_send_question</string>
+    <string name="summary_send_question">Masz do nas jakieś pytanie? Chętnie pomożemy!</string>
+    <string name="title_send_question">Zapytaj nas o coś</string>
+    <string name="summary_git">Odnośnik do repozytorium z projektem</string>
+    <string name="title_git">Repozytorium</string>
+    <string name="choose_email_client">Wybierz aplikację pocztową</string>
+    <string name="about_app">O aplikacji</string>
+
+
+    <!-- Feedback -->
+    <string name="feedback">Feedback</string>
+    <string name="share_with_us">Podziel się z nami swoją opinią</string>
+
+    <!-- About us -->
+    <string name="angelika_iskra">Angelika Iskra</string>
+    <string name="desc_angela">Programistka, autorka tej aplikacji. Oprogramowaniem mobilnym zajęła się stosunkowo niedawno, jednak cały czas odkrywa coraz to więcej tajników Androida.</string>
+
+    <string name="oskar_domingos">Oskar Domingos</string>
+    <string name="desc_oskar">Programowanie to jego pasja. Pierwszy kontakt z programowaniem miał w wieku 15 lat i od tamtej pory stale rozwija się w dziedzinie informatyki. Stworzył REST API, z którego korzysta ta aplikacja.</string>
+    <string name="my_account">Zaloguj się</string>
+    <string name="achievements">Osiągnięcia</string>
+    <string name="my_notifications">Moje zgłoszenia</string>
+    <string name="open">Open</string>
+    <string name="close">Closed</string>
+    <string name="title_activity_my_notifications">MyNotificationsActivity</string>
+    <string name="unknown_location">Nieznana lokalizacja</string>
+
+    <plurals name="num_locations_reported">
+        <item quantity="zero">No location reported</item>
+        <item quantity="one">One location reported</item>
+        <item quantity="other">%d locations reported</item>
+    </plurals>
+
+    <string name="SpeedCamera">Fotoradar</string>
+    <string name="TrafficJam">Korek</string>
+    <string name="PoliceControl">Kontrola policyjna</string>
+    <string name="CarAccident">Wypadek drogowy</string>
+    <string name="RoadBuilding">Budowa drogi</string>
+    <string name="Blockade">Blokada drogi</string>
+
+    <string name="no_data">Brak nowych wydarzeń \n\n Dodaj nowe wydarzenie klikając na przycisk!</string>
+
+    <string name="new_info">Najnowsze informacje</string>
+    <string name="no_new_events">Brak nowych zdarzeń</string>
+    <string name="authors">Twórcy</string>
+
+    <string name="my_github">\@github/angelikaiskra</string>
+    <string name="oskar_github">\@github/Oz-on</string>
+    <string name="check_box_notifications_on">check_box_notifications_on</string>
+    <string name="title_activity_login">Zaloguj się</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Hasło</string>
+    <string name="action_sign_in">Zaloguj się</string>
+    <string name="error_invalid_email">Nieprawidłowy email</string>
+    <string name="error_invalid_password">To hasło jest za krótkie</string>
+    <string name="error_incorrect_password">Nieprawidłowe hasło</string>
+    <string name="error_field_required">Wypełnij wszystkie wymagane pola</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Zarejestruj się</string>
+    <string name="prompt_password_again">Powtórz hasło</string>
+    <string name="password_error_number">Hasło musi zawierać liczbę.</string>
+    <string name="password_error_length">Hasło musi mieć długość co najmniej 4 znaków</string>
+    <string name="password_error_different">Wprowadzono różne hasła</string>
+    <string name="logout">Wyloguj się</string>
+    <string name="error_cant_open">Nie udało się otworzyć tego okna</string>
+
+
+</resources>

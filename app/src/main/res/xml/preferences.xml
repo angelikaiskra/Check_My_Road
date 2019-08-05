@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Ogólne-->
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="@string/pref_header_general">
+
+        <ListPreference
+            android:entries="@array/pref_list_languages"
+            android:entryValues="@array/pref_list_languages"
+            android:key="@string/pref_languages"
+            android:title="@string/pref_title_languages" />
+
+        <EditTextPreference
+            android:defaultValue="Twój nick"
+            android:key="@string/key_your_nickname"
+            android:singleLine="true"
+            android:title="@string/pref_your_nick" />
+
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="@string/check_box_following_user"-->
+            <!--android:title="@string/pref_title_following_user" />-->
+
+    </PreferenceCategory>
+
+    <!--Powiadomienia-->
+    <PreferenceCategory android:title="@string/pref_header_notifications">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/check_box_notifications_on"
+            android:title="@string/pref_if_notifications_enabled" />
+
+        <!--<ListPreference-->
+            <!--android:dependency="check_box_notifications_on"-->
+            <!--android:entries="@array/pref_list_range_of_notifications"-->
+            <!--android:entryValues="@array/pref_list_range_of_notifications_values"-->
+            <!--android:key="@string/list_range_of_notifications"-->
+            <!--android:title="@string/pref_range_of_notifications" />-->
+
+        <!--<MultiSelectListPreference-->
+            <!--android:entries="@array/pref_list_notify_about"-->
+            <!--android:entryValues="@array/pref_list_notify_about"-->
+            <!--android:key="multi_select_list_notify_about"-->
+            <!--android:dependency="check_box_notifications_on"-->
+            <!--android:title="@string/pref_notify_about" />-->
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:summary="@string/summary_vibrate"
+            android:dependency="check_box_notifications_on"
+            android:title="@string/title_vibrate" />
+
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="check_box_notifications_on"
+            android:key="@string/key_notifications_new_event_ringtone"
+            android:ringtoneType="notification"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+    </PreferenceCategory>
+
+    <!--Synchronizacja-->
+    <PreferenceCategory android:title="@string/pref_header_sync">
+
+        <ListPreference
+            android:entries="@array/pref_list_sync_frequency"
+            android:entryValues="@array/pref_list_sync_frequency_values"
+            android:defaultValue="15"
+            android:key="@string/list_sync_frequency"
+            android:title="@string/pref_title_sync_frequency" />
+
+    </PreferenceCategory>
+
+    <!--O aplikacji-->
+    <PreferenceCategory android:title="@string/about_app">
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:summary="@string/summary_git"
+            android:title="@string/title_git">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_git" />
+        </Preference>
+
+        <Preference
+            android:key="@string/key_send_question"
+            android:summary="@string/summary_send_question"
+            android:title="@string/title_send_question" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

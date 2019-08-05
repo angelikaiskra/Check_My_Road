@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_list_languages">
+        <item>Polski</item>
+    </string-array>
+
+    <string-array name="pref_list_notify_about">
+        <item>Korek</item>
+        <item>Fotoradar</item>
+        <item>Kontrola</item>
+        <item>Wypadek</item>
+        <item>Remont</item>
+        <item>Blokada</item>
+    </string-array>
+
+    <string-array name="pref_list_range_of_notifications">
+        <item>1 kilometr</item>
+        <item>2 kilometry</item>
+        <item>5 kilometrów</item>
+        <item>10 kilometrów</item>
+        <item>15 kilometrów</item>
+        <item>30 kilometrów</item>
+        <item>60 kilometrów</item>
+    </string-array>
+
+    <string-array name="pref_list_range_of_notifications_values">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="pref_list_sync_frequency">
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>60 sekund</item>
+        <item>90 sekund</item>
+        <item>2 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+    </string-array>
+
+    <string-array name="pref_list_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+
+
+
+
+</resources>

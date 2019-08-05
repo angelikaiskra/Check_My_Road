@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/colorLightBlue</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ActivityTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="colorPrimaryDark">@color/colorDarkBlue</item>
+        <item name="colorPrimary">@color/colorDarkBlue</item>
+    </style>
+
+
+    <style name="MyPreferenceFixTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material.Fix</item>
+        <item name="preferenceDialog_messageAppearance">
+            @style/PreferenceFixTheme.TextAppearanceDialogMessage
+        </item>
+        <item name="colorPrimaryDark">@color/colorDarkBlue</item>
+        <item name="colorPrimary">@color/colorDarkBlue</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
